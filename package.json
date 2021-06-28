@@ -1,0 +1,16 @@
+{
+  "name": "talos-premy-monitor",
+  "version": "0.1.0",
+  "description": "Titan22 Premytheus Product Monitor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Blacksmith",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "https-proxy-agent": "^5.0.0",
+    "mongoose": "^5.12.15"
+  }
+}
