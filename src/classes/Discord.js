@@ -1,7 +1,7 @@
 const { Webhook, MessageBuilder } = require('discord-webhook-node');
 
 const Log = require('../../Log')
-const config = require('../config.json')
+const config = require('../../config.json')
 
 if(config.webhook_url === []){
     Log.Error('Discord webhook url cannot be empty, insert it in the config.json file')

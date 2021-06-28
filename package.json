@@ -10,7 +10,9 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
+    "discord-webhook-node": "^1.1.8",
     "https-proxy-agent": "^5.0.0",
+    "moment-timezone": "^0.5.33",
     "mongoose": "^5.12.15"
   }
 }

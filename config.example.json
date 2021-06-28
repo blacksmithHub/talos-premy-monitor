@@ -1,0 +1,19 @@
+{
+    "mongodb_uri": "mongodb://127.0.0.1:27017/premytheus",
+    "webhook_url": [],
+    "discord_message_settings": {
+        "botImage": "https://i.imgur.com/3HQZ0ol.png",
+        "botName": "TALOS-IO",
+        "footerDescription": "Premytheus Monitor v0.1.0 by TALOS-IO",
+        "footerImage": "https://i.imgur.com/3HQZ0ol.png",
+        "timeOfNotification": true,
+        "storeLogo": "https://img.pngio.com/new-arrivals-cool-black-and-white-png-1080_1080.png",
+        "storeUrl": "https://premytheus.com",
+        "color": "f7b586"
+    },
+    "requestTiming": 30000,
+    "sites": [
+        { "url": "premytheus.com" }
+    ],
+    "proxiesList": []
+}

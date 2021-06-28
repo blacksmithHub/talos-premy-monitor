@@ -1,5 +1,6 @@
 const axios = require('axios');
 const httpsProxyAgent = require("https-proxy-agent");
+const moment = require('moment-timezone')
 
 const Discord = require('./Discord')
 
@@ -55,7 +56,11 @@ class Task {
                 
                 var url = `https://${this.storeUrl}/products.json`
 
+                console.log(`[${moment().format('YYYY-MM-DD h:mm:ss a')}]: fetching...`)
+
                 const response = await axios.get(url, config)
+
+                console.log(`[${moment().format('YYYY-MM-DD h:mm:ss a')}]: responded!`)
 
                 this.currentProxy.banCount = 0.5;
 
